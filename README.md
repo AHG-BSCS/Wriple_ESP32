@@ -1,5 +1,6 @@
 # <img src="https://github.com/AHG-BSCS/Wriple_ESP32/blob/0cb059ab99261828a444cd10bde82d42706d2545/docs/icon.png" width="28" alt="Logo Thumbnail"> WRIPLE ESP32 ![wriple esp32 badge][wriple-esp32-badge]
 The device-free wireless sensing (DFWS) firmware of the ESP32-WROOM-32U module for the WRIPLE system. This firmware serve as the controller of the ESP32 module during the real-time human presence detection. When the WRIPLE station and ESP32 are both is connected to the dedicated AP, WRIPLE station can control the ESP32 behavior to send Wi-Fi CSI and mmWave RDM in a controlled timing.
+Find the WRIPLE application [here][wriple-system]. Email the developer for any questions and any development that this software has been used.
 
 ## Table of Contents
 - [Features](#features)
@@ -13,7 +14,7 @@ The device-free wireless sensing (DFWS) firmware of the ESP32-WROOM-32U module f
 - **Auto Device Discovery** - Identify the WRIPLE station address by listening to broadcast messages.
 - **Status LED** - Turn on the LED when the WRIPLE station and ESP32 is connected. Blink the LED when ESP32 is actively sending data.
 - **Auto Connection Reset** - When the WRIPLE client is disconnected, the ESP32 will return to discovery mode to inform the WRIPLE client of the ESP32 presence.
-- **Adaptive Transmit Frequency** - Control the frequency of data transmission of ESP32 based on the request frequency of the WRIPLE client. 
+- **Adaptive Transmit Timing** - Control the timing of data transmission of ESP32 based on the request frequency of the WRIPLE station.
 
 ## Prototype
 ### List of Components
@@ -57,6 +58,7 @@ This project is licensed under the <licence-name> License - see the [LICENSE](LI
 <!-- Reference -->
 [wriple-esp32-badge]: https://img.shields.io/badge/Firmware-Device_Free_Wireless_Sensing-8B4513
 
+[wriple-system]: https://github.com/AHG-BSCS/Wriple
 [git]: https://git-scm.com/install/windows
 [vs-code]: https://code.visualstudio.com/download
 [esp-idf-ext]: https://marketplace.visualstudio.com/items?itemName=espressif.esp-idf-extension
