@@ -20,7 +20,7 @@ The device-free wireless sensing (DFWS) firmware of the ESP32-WROOM-32U module f
 # <img src="https://github.com/AHG-BSCS/Wriple_ESP32/blob/cbe37b5a8f4e9e60fa9dedafc3f33bb450269944/docs/prototype.jpg" width="700" alt="dfws prototype">
 
 - ESP32-WROOM-32U DevKitC Module
-- HLK-LD2420 Radar
+- HLK-LD2420 mmWave Radar
 - High Gain External Antenna (12 dBi)
 - u.FL to RP-SMA Coaxial Pigtail Cable
 - USB to USB Micro-B Cable
@@ -51,7 +51,7 @@ This project is licensed under the <licence-name> License - see the [LICENSE](LI
 - **[ESP-IDF][esp-idf]**: For ESP32 framework and documentation.
 - **[esp-csi][esp-csi]**: For sample usage of ESP-IDF.
 - **[ESP32-CSI-Tool][esp32-csi-tool]**: For sample source code for capturing Wi-Fi CSI.
-- **[ESP32 Pinout Reference][esp32-pinout]**: For ESP32-WROOM-32U DevKit-C module pin reference.
+- **[ESP32 Pinout Reference][esp32-pinout]**: For ESP32-WROOM-32U DevKitC module pin reference.
 - **[HMMD mmWave Sensor][mmwave-sensor]**: For HLK-LD2420 communication demo.
 
 <!-- Reference -->
